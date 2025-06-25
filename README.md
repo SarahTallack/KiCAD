@@ -14,3 +14,11 @@ Template requirements:
 - In the project file create a new folder called "meta"
     - In the meta folder, you must include a file called "info.html".
     - You may also include an icon, which must be saved and stored in the meta folder as "icon.png" (64x64 resolution recommended).
+ 
+
+# Logo Footprint Library
+
+The Logos.pretty folder has the UCT, ARU, and MaRiS logos in various sizess. To add a footprint library:
+- Open KiCAD
+- Navigate to Preferences - Manage Footprint Libraries
+- Click the plus in the bottom left to add a new row to the table and fill in the information accordingly.
