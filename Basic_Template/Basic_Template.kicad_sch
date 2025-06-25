@@ -1,0 +1,62 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d5310b99-fef9-4476-9da4-84869003b025")
+	(paper "A4")
+	(title_block
+		(title "insert_sheet_title")
+		(rev "0")
+		(company "University of Cape Town")
+		(comment 1 "Project: project_name")
+		(comment 2 "Author: name_surname")
+	)
+	(lib_symbols)
+	(text_box "TITLE"
+		(exclude_from_sim yes)
+		(at 220.98 15.24 0)
+		(size 59.69 59.69)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "52f1c879-95eb-485e-988e-5dedcb039598")
+	)
+	(text_box "Schematic Steps for PCB production:\n\n1. Fill in drawing sheet information\n\n2. Make your schematic. I like to use the TITLE block for separating circuits\n\n3. Test points, mounting holes\n\n4. Annotate\n\n5. Run an ERC\n\n6. Assign footprints\n\n7. BOM has an LCSC column, fill in for all components you want populated.\n\n8. Optional unit cost column\n\n9. If circuit is changed, don't forget revision number"
+		(exclude_from_sim yes)
+		(at 297.18 15.24 0)
+		(size 87.63 49.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Verdana")
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "d7be7fb1-770b-49de-ac2d-a588ca156ee1")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
